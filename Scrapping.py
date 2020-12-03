@@ -40,10 +40,10 @@ def search_for_hashtags(consumer_key, consumer_secret, access_token, access_toke
                         [e['text'] for e in tweet._json['entities']['hashtags']], tweet.user.followers_count])
 
 
-consumer_key = 'Q7Zq1DKL00Qltzv8fqE28wHrQ'
-consumer_secret = 'vzsICt06w4zZM9zrAyQCynJuopclKUDAoBz8K79Ko4Ue0WD4p4'
-access_token = '340260203-xH2LpKwMyyNIoieIj7A9psQl3E8xLaw4CvWTCiJz'
-access_token_secret = 'vDDrQp791uj8OK9sr8N4IVNT0TSlodMPM6Py807xUpCOR'
+consumer_key = '****'
+consumer_secret = '****'
+access_token = '****'
+access_token_secret = '****'
 
 hashtag_phrase = input('Hashtag Phrase ')
 
